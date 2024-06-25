@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void luta(){
+    int turnos = 3;
+    for (int i = 1; i<= turnos; i++){
+    printf("Turno %d: \n", i);
+    printf("Cavaleiro atacou;\n");
+    
+}
+printf("FIM. Cavaleiro ganhou.");
+}
+int main (){
+luta ();
+    return 0;
+}

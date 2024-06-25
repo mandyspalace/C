@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdbool.h>
+// Incluindo a biblioteca para usar o tipo bool
+
+int avisofogo(){
+    bool fogo = true;
+    while(fogo){
+        printf("FOGO! CUIDADO\n");
+        printf("Estão apagando o fogo...\n");
+        fogo = false;{
+            printf("O fogo se apagou. Ufa.\n");
+        }
+}
+    return fogo;
+}
+int main ()
+{
+    avisofogo();
+return 0;
+}

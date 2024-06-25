@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int comprar_itens(){
+    int total = 10;
+    printf("Foram comprados: %d\n", total);
+    return total;
+}
+
+int main(){
+    comprar_itens();
+    return 0;
+}

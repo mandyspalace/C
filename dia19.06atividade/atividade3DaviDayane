@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+char usar_fogo(){
+    int fogo;
+    int numhab = 10;
+    // enquanto <FOGO> é menor que o número de habilidades restantes, ele o usará.
+    for(fogo = 2; fogo <= numhab; fogo++){
+    printf("Você usou a habilidade de Fogo %d vezes.\n", fogo);
+}
+if(fogo = 10){
+    printf("Suas habilidades se esgotaram.");
+}
+}
+int main(){
+    usar_fogo();
+    return 0;
+}

@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int recup_energia(){
+    int energia = 10;
+    int max = 100;
+    while(energia <= max){
+        printf("Recuperou %d%% da sua energia de %d%%\n", energia, max);
+        energia+= 10;
+        
+    }
+    if (energia = 100){
+        printf("Você recuperou toda sua energia.");
+    }
+}
+ int main (){
+     recup_energia();
+     return 0;
+ }

@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+
+    int main() {
+   
+   int idade = 30;
+   float altura = 1.92;
+   char inicial = 'M';
+   double preco = 7.93;
+   
+   printf ("%d\n", idade);
+   printf ("%f\n", altura);
+   printf ("%lf\n", preco);
+   printf ("%c\n", inicial);
+   
+   return 0;
+    }

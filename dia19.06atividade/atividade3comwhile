@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+char hab(){
+    char usar_hab = 's';
+    while(usar_hab=='s'){
+        printf("Você deseja usar Kamehameha\n");
+        scanf("%s", &usar_hab);
+        printf("Você lançou seu Kamehameha\n");
+    }
+    printf("Você não usou sua habilidade\n");
+    return usar_hab;
+}
+int main (){
+    hab();
+    return 0;
+}
